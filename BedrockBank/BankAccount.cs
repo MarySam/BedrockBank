@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace BedrockBank
 {
+    // Yay!!
+
     /// <summary>
     /// BankAccountTraining
     /// </summary>
