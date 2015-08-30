@@ -21,6 +21,7 @@ namespace BedrockBank
         {
             Account account = new Account(name);
             account.SSN = ssn;
+            account.AccountType = TypeOfAccount.Checking;
             if(balance > 0)
             {
                 account.Deposit(balance);

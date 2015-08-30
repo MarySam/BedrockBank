@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace BedrockBank
 {
+    public enum TypeOfAccount
+    {
+        Checking,
+        Savings
+    }
     /// <summary>
     /// This defines the Account
     /// Allows the user to deposit and
@@ -40,6 +45,8 @@ namespace BedrockBank
                 balance = value;
             }
         }
+
+        public TypeOfAccount AccountType { get; set; }
         #endregion
 
         #region Constructor
