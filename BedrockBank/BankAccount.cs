@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace BedrockBank
 {
-    // Yay!!
 
     /// <summary>
     /// BankAccountTraining
@@ -18,12 +17,17 @@ namespace BedrockBank
         /// Account Balance
         /// </summary>
         public decimal Balance { get; set; }
-        /// <summary>
-        /// Name of Account
-        /// </summary>
         public string Name { get; set; }
         public string Address { get; set; }
         public int AccountNumber { get; set; }
+        public AccountType TypeOfBankAccount { get; set; }
+        #endregion
+
+        #region Enum
+        public enum AccountType
+        { Checking,
+        Savings,
+        CD}
         #endregion
     }
 }
