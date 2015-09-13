@@ -24,6 +24,8 @@ namespace BedrockBank
                 myAccount2.AccountNumber, myAccount2.Name, myAccount2.Balance);
             //myAccount.AccountNumber = 10;
             //Console.WriteLine(myAccount.Balance);
+
+            BankFactory.CreateStatements();
         }
     }
 }

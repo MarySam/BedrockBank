@@ -46,6 +46,8 @@ namespace BedrockBank
             }
         }
 
+        public string Statement { get; set; }
+
         public TypeOfAccount AccountType { get; set; }
         #endregion
 

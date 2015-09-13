@@ -8,8 +8,14 @@ namespace BedrockBank
 {
     public static class BankFactory
     {
+        #region Private
+        private static List<Account> accounts = new List<Account>();
+        #endregion
+
         public static string Name { get; set; }
         public static string Address { get; set; }
+
+
         /// <summary>
         /// Creates a bank account
         /// </summary>
@@ -26,7 +32,21 @@ namespace BedrockBank
             {
                 account.Deposit(balance);
             }
+            accounts.Add(account);
             return account;
+        }
+
+        public static void CreateStatements()
+        {
+            //for (int i = 0; i < accounts.Count; i++)
+            //{
+            //    var account = accounts[i];
+            //    account.Statement = string.Format("Starting balance: {0:c}, Ending balance: {0:c}", account.Balance);
+            //}
+            foreach (var account in accounts)
+            {
+                account.Statement = string.Format("Starting balance: {0:c}, Ending balance: {0:c}", account.Balance);
+            }
         }
     }
 }
