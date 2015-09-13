@@ -1,0 +1,12 @@
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\bin\Debug\BedrockBank.pdb
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\obj\Debug\BedrockBank.csprojResolveAssemblyReference.cache
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
+C:\Users\Kal\Documents\Teaching Materials\KalAcademy\C# Basic\Working\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb
+C:\Users\Kal\Documents\Teaching Materials\Git\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
+C:\Users\Kal\Documents\Teaching Materials\Git\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
+C:\Users\Kal\Documents\Teaching Materials\Git\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb
+C:\Users\info\Documents\Github\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
+C:\Users\info\Documents\Github\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
+C:\Users\info\Documents\Github\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb

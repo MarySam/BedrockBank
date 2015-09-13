@@ -10,23 +10,22 @@ namespace BedrockBank
     {
         static void Main(string[] args)
         {
-            BankAccount myAccount = new BankAccount();
-            //Set of the property is called
-            myAccount.Name = "Mary";
-            myAccount.Deposit(150.25);
-
-            //Get of the property is called
-            Console.WriteLine("Account number: {0}, Name: {1}, Balance: {2:c}",
+            //LHS = definition
+            //RHS = instantiation (memory is allocated)
+            //Account myAccount = new Account();
+            //myAccount.Name = "Kal";
+            //Account myAccount = new Account("Kal");
+            Account myAccount = BankFactory.CreateAccount("Kal", 123123, 0);
+            Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
                 myAccount.AccountNumber, myAccount.Name, myAccount.Balance);
 
-            BankAccount savingsAccount = new BankAccount();
-            savingsAccount.Name = "Mary 2";
-            savingsAccount.Deposit(200);
+            Account myAccount2 = BankFactory.CreateAccount("Kal2", 123123, 500);
+            Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
+                myAccount2.AccountNumber, myAccount2.Name, myAccount2.Balance);
+            //myAccount.AccountNumber = 10;
+            //Console.WriteLine(myAccount.Balance);
 
-            //Get of the property is called
-            Console.WriteLine("Account number: {0}, Name: {1}, Balance: {2:c}",
-                savingsAccount.AccountNumber, savingsAccount.Name, savingsAccount.Balance);
-
+            BankFactory.CreateStatements();
         }
     }
 }
