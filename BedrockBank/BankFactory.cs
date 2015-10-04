@@ -25,15 +25,22 @@ namespace BedrockBank
         /// <returns>Account number</returns>
         public static  Account CreateAccount(string name, int ssn, double balance)
         {
-            Account account = new Account(name);
-            account.SSN = ssn;
-            account.AccountType = TypeOfAccount.Checking;
-            if(balance > 0)
+            using (var db = new BankModel())
             {
-                account.Deposit(balance);
+                Account account = new Account(name);
+                account.SSN = ssn;
+                account.AccountType = TypeOfAccount.Checking;
+                if (balance > 0)
+                {
+                    account.Deposit(balance);
+                }
+                accounts.Add(account);
+                db.Accounts.Add(account);
+                db.SaveChanges();
+                return account;
+
             }
-            accounts.Add(account);
-            return account;
+                      
         }
 
         public static void CreateStatements()

@@ -10,3 +10,13 @@ C:\Users\Kal\Documents\Teaching Materials\Git\BedrockBank\BedrockBank\obj\Debug\
 C:\Users\info\Documents\Github\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
 C:\Users\info\Documents\Github\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
 C:\Users\info\Documents\Github\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\BedrockBank.pdb
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\EntityFramework.dll
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\EntityFramework.xml
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marys_000\Documents\GitHub\BedrockBank\BedrockBank\obj\Debug\BedrockBank.csprojResolveAssemblyReference.cache
