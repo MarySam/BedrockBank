@@ -13,7 +13,7 @@ namespace BedrockBank
         // If you wish to target a different database and/or database provider, modify the 'BankModel' 
         // connection string in the application configuration file.
         public BankModel()
-            : base("name=BankModel")
+            : base("name=BankModelLocalDb")
         {
         }
 
