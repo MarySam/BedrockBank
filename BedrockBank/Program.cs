@@ -10,22 +10,19 @@ namespace BedrockBank
     {
         static void Main(string[] args)
         {
-            //LHS = definition
-            //RHS = instantiation (memory is allocated)
-            //Account myAccount = new Account();
-            //myAccount.Name = "Kal";
-            //Account myAccount = new Account("Kal");
-            Account myAccount = BankFactory.CreateAccount("Kal", 123123, 0);
-            Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
-                myAccount.AccountNumber, myAccount.Name, myAccount.Balance);
-
-            Account myAccount2 = BankFactory.CreateAccount("Kal2", 123123, 500);
-            Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
-                myAccount2.AccountNumber, myAccount2.Name, myAccount2.Balance);
-            //myAccount.AccountNumber = 10;
-            //Console.WriteLine(myAccount.Balance);
-
-            BankFactory.CreateStatements();
+            Console.WriteLine("**Welcome to Bedrock Bank**");
+            Console.Write("Please enter your ssn(without dashes):");
+            var ssn = Console.ReadLine();
+            int convertedSSN;
+            if (int.TryParse(ssn, out convertedSSN) == true)
+            {
+                var accounts = BankFactory.GetAllAccountsBySSN(convertedSSN);
+                for (int i = 0; i < accounts.Length; i++)
+                {
+                    Console.WriteLine("{0}.Name: {1}", i + 1, accounts[i].Name);
+                }
+            }
+            
         }
     }
 }
