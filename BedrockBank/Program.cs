@@ -10,6 +10,7 @@ namespace BedrockBank
     {
         static void Main(string[] args)
         {
+
             bool success = false;
             short attempts = 1;
             Console.WriteLine("*************Welcome to Bedrock Bank**********");
@@ -43,9 +44,13 @@ namespace BedrockBank
                         int convertedAccountIndex;
                         if (int.TryParse(accountIndex, out convertedAccountIndex) == true)
                         {
-                            var account = accounts[convertedAccountIndex - 1];
+                            var account
+                                = accounts[convertedAccountIndex - 1];
                             Console.WriteLine("Account number: {0}, Name: {1}, Balance: {2:c}",
                                 account.AccountNumber, account.Name, account.Balance);
+                        }
+                        {
+                            Console.ReadLine();
                         }
                     }
                 }
@@ -54,3 +59,24 @@ namespace BedrockBank
         }
     }
 }
+
+
+    
+//How to populate a table in the database
+        /*Account myAccount = BankFactory.CreateAccount("Mary1", 123123, 0);
+        Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
+        myAccount.AccountNumber, myAccount.Name, myAccount.Balance);
+
+        Account myAccount2 = BankFactory.CreateAccount("Mary2", 123123, 500);
+        Console.WriteLine("Account Number: {0}, Name: {1}, Balance: {2}",
+        myAccount2.AccountNumber, myAccount2.Name, myAccount2.Balance);
+        //myAccount.AccountNumber = 10;
+        //Console.WriteLine(myAccount.Balance);
+
+        BankFactory.CreateStatements();
+
+       Console.ReadLine();*/
+    
+  
+
+

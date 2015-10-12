@@ -15,7 +15,6 @@ namespace BedrockBank
         public static string Name { get; set; }
         public static string Address { get; set; }
 
-
         /// <summary>
         /// Creates a bank account
         /// </summary>

@@ -23,3 +23,10 @@ C:\Users\Mary\Documents\GitHub\Kal Academy\BedrockBank\obj\Debug\BedrockBank.csp
 C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe.config
 C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\obj\Debug\BedrockBank.exe
 C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\obj\Debug\BedrockBank.pdb
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\BedrockBank.exe
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\BedrockBank.pdb
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\EntityFramework.dll
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\EntityFramework.xml
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mary\Documents\Kal Academy\BedrockBank\BedrockBank\obj\Debug\BedrockBank.csprojResolveAssemblyReference.cache
